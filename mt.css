@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family: sans-serif;
+}
+#wholepage{
+    width: 1366px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 2px solid black;
+    padding: 50px;
+}
+.header{
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    width: 300px;
+    height: 200px;
+    margin-right: 50px;
+}
+.title{
+    width: 450px;
+    height: 200px;
+    margin-right: 350px;
+}
+.navigation .navigate{
+    background-color: yellowgreen;
+    display: flex;
+    list-style: none;
+    margin: 50px 0;
+    justify-content: center;
+}
+.navigation .navigate a{
+    text-decoration: none;
+    border-radius: 50em;
+    border: 2px solid rgb(151, 74, 1);
+    color: rgb(151, 74, 1);
+    padding: 15px 30px;
+    margin: 0 15px;
+    font-weight: bold;
+}
+.navigation .navigate a:hover{
+    background-color: rgb(151, 74, 1);
+    color: white;
+}
+.navigation .navigate a:hover, .navigation .navigate .loaded{
+    background-color: rgb(151, 74, 1);
+    color: white;
+    border: 2px solid black;
+}
+.secFrame{
+    display: flex;
+    justify-content: space-between;
+}
+.section1{
+    width: 200px;
+}
+.section2{
+    width: 70%;
+    height: 100%;
+    justify-content: center;
+}
+.milkt{
+    width: 70%;
+    margin: 0 150px;
+}
+.coffee{
+    width: 50%;
+    margin: 0 250px;
+}
+.milk_img_frame{
+    background-color: yellowgreen;
+    width: 100%;
+    display: flex;
+    overflow: auto;
+    
+}
+.section3{
+    width: 200px;
+}
+.milkteaframe{
+    display: flex;
+    overflow: auto;
+    background-color: yellowgreen;
+    padding: 5px;
+
+}
+.imgs{
+    width: 200px;
+    height: 200px;
+    margin: 5px 5px;
+}
+.det{
+    text-align:center;
+    padding: 20px;
+}
+.det h1{
+    color: yellowgreen;
+    font-weight: bolder;
+    font-style: italic;
+}
+.det h2{
+    color: sienna;
+}
+.ads{
+    width: 80%;
+}
+.footer h4{
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+}
